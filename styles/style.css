@@ -1,0 +1,118 @@
+/* Common style */
+
+.total-container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+.noto-serif-normal {
+  font-family: "Noto Serif", serif;
+  font-style: normal;
+}
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+
+/* NAVBAR STYLES */
+
+div h4{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.nav-conten{
+    display: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+div ul li{
+    list-style: none;
+}
+.nav-list ul{
+    display: flex;
+    gap: 48px;
+}
+#nav-itm-1{
+    color: #252432;
+    font-weight: bold;
+    font-size: 1.25rem;
+    
+}
+#nav-itm-2{
+    color: #8987A1;
+    font-weight: 500;
+}
+#nav-itm-3{
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 576px) {
+    .nav-conten{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 576px) {
+       figure{
+        height: 120px;
+        }
+    
+
+        #nav-itm-1,
+         #nav-itm-2{
+        display: none;
+         }
+        .nav-list{
+         margin-right: 10px;
+          }
+        .nav-conten{
+        margin-left: 50px;
+        margin-right: 50px;
+        height: 54px;
+         }
+
+    }
+
+
+
+
+
+
+
+
+
+
+

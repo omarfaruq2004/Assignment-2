@@ -67,6 +67,39 @@ div ul li{
     font-weight: 500;
 }
 
+/* BANNER STYLE */
+
+.banner{
+display: flex;
+margin-top: 120px;
+    
+}
+
+.banner-title h1{
+    font-size: 40px;
+}
+#nav-col{
+    color: #E95A08;
+}
+
+.banner-title p{
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -100,9 +133,28 @@ div ul li{
           }
         .nav-conten{
         margin-left: 50px;
-        margin-right: 50px;
+        margin-right: 30px;
         height: 54px;
          }
+
+        .banner{
+            flex-direction: column-reverse;
+            margin-top: 10px;
+            
+        }
+        .banner-img{
+            width: 100%;
+        }
+
+
+
+
+
+
+
+
+
+
 
     }
 

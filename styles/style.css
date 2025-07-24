@@ -198,20 +198,126 @@ margin-top: 120px;
     right: -70px;
     }
 
+ /* Latest  Deals */
+
+.Latest-ditails h1{
+       font-size: 80px;
+       font-weight: bold;
+}
+
+#latest-color{
+    color: #E95A08;
+}
+
+.Latest-ditails p{
+        font-size: 30px;
+    color: rgba(0, 0, 0, 0.5);
+
+}
+
+.Latest{
+    text-align: center;
+    margin-top: 133px;
+    width: 100%;
+}
+
+
+ /* LATEST-STYLES */
+
+.img-1{
+        background-image: url(../images/deal-bloom.png);
+
+}
+
+.img-2{
+    background-image: url(../images/deal-ana.png);
+}
+
+.img-3{
+    background-image: url(../images/deal-zabo.png);
+}
 
 
 
+.img-card{
+    width: 500px;
+}
+.img-card-1{
+     width: 1140px;
+}
 
 
+.latest-image{
+    padding: 20px;
+    max-width: 270px;
+    height: 130px;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    display: flex;
+    text-align: center;
+    
+}
 
+.img-card h4{
+     font-size: 20px;
+     font-weight: bold;
+     color: #FFFFFF;
+     
+}
+.img-card a{
+    font-weight: 600;
+    color: #FFFFFF;
 
+}
 
+ .img-zabo{
+    margin-top: 30px;
+ }   
 
+.img-card-1 h4{
+     font-size: 40px;
+     font-weight: bold;
+     color: #FFFFFF;
+     
+}
+.img-card-1 a{
+    font-size: 28px;
+    font-weight: 600;
+    color: #FFFFFF;
 
+}
 
+.latest-image-1{
+    padding: 20px;
+    max-width: 710px;
+    height: 320px;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    display: flex;
+    text-align: center;
+    
+}
+ 
+.margin{
+    margin-top: 10px;
+    
+}
 
+.latest-container{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    
+}
 
+.img-bloom-ana{
+    margin-top: 20px;
+}
 
+.margin-1{
+    margin-bottom: 5px;
+}
 
 
 
@@ -222,6 +328,26 @@ margin-top: 120px;
         display: none;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -275,7 +401,7 @@ margin-top: 120px;
             display: none;
         }
  
-         .flower{
+         .flower, .latest-container{
             flex-direction: column;
          }
          .flower-img{
@@ -287,6 +413,30 @@ margin-top: 120px;
            .flower{
             margin-top: 0px;
            }
+
+         .Latest-ditails h1{
+                font-size: 50px;
+         }
+         .Latest-ditails p{
+            font-size: 20px;
+         }
+  
+
+         .img-zabo{
+            width: 100%;
+         }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -237,6 +237,9 @@ margin-top: 120px;
     background-image: url(../images/deal-zabo.png);
 }
 
+.img-4{
+    background-image: url(../images/news-letter-bg.png);
+}
 
 
 .img-card{
@@ -320,24 +323,46 @@ margin-top: 120px;
 }
 
 
+      /* BUNCH STYLES */
 
-
-
-@media screen and (min-width: 576px) {
-    .nav-conten{
-        display: none;
-    }
+.bunch h1{
+     font-size: 40px;
+     font-weight: bold;
+     color: #FFFFFF;
+}
+      
+#sub-btn{
+    background-color: #E95A08;
+    width: 186px;
+    height: 50px;
+    font-weight: 500;
+    color: #FFFFFF;
+    border: none;
+    margin-left: -2px;
 }
 
+.bunch-box{
+    width: 644px;
+    height: 50px;
+    border: none;
+        color: rgba(0, 0, 0, 0.5);
+    padding-left: 20px;
 
+}
 
+.bunch{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    height: 533px;
+    background-size: cover;
+     padding-top: 200px;
+}
 
-
-
-
-
-
-
+.bunch-container{
+    margin-top: 120px;
+}
 
 
 
@@ -425,13 +450,32 @@ margin-top: 120px;
          .img-zabo{
             width: 100%;
          }
+ 
+     .bunch-conten{
+           width: 321px;
+       }
 
+      .bunch-box{
+        width: 35%;
+        height: 15%;
+      }
+      .bunch-conten h1{
+        font-size: 30px;
+      }
+      #sub-btn{
+        width: 25%;
+        height: 16%;
+      }
 
-
-
-
-
-
+       .bunch{
+        width: 100%;
+        padding: 0px;
+        height: 276px;
+       }
+      
+       .bunch-container{
+        margin-top: 44px;
+       }
 
 
 
